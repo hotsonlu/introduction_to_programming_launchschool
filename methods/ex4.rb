@@ -2,7 +2,7 @@
 
 def scream(words)
   words = words + "!!!"
-  return
+
   puts words
 end
 
@@ -10,3 +10,4 @@ end
 scream("Yippeee")
 
 # It print nothing , because it uses explicit return , but nothing comes with it.
+# It returns nil if remove reversed word return , because puts return nil
